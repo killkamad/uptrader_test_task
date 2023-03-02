@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load menu_tags %}
+
+{% block content %}
+
+<nav>
+  <ul>
+    {% draw_menu slug %}
+  </ul>
+</nav>
+
+{% endblock %}
